@@ -1,8 +1,13 @@
-# include what you want
+#!/bin/bash
 
 export PATH=$PATH:$HOME/bin
 
-# add this to the .bashrc: . $HOME/.bashrc.load
+# Alias definitions
+if [ -f $HOME/.bash_aliases ]; then
+	. $HOME/.bash_aliases
+fi
 
-####
-# put any bash customizations in here
+# Base16 Shell
+BASE16_SCHEME="default"
+BASE16_SHELL="$HOME/.config/base16-shell/base16-$BASE16_SCHEME.dark.sh"
+[[ -s $BASE16_SHELL ]] && . $BASE16_SHELL
