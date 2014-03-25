@@ -2,6 +2,10 @@
 
 # .bash_aliases
 
+# Fixes
+alias sudo='sudo '
+alias emacs='emacs -nw'
+
 # System
 alias l='ls -l'
 alias ll='ls -l'
@@ -22,6 +26,12 @@ function symfony() {
 }
 alias sf='symfony'
 
-# Fixes
-alias emacs='emacs -nw'
-alias sudo='sudo '
+# Commands
+function clean() {
+    find $1 \( -name ".*~" -o -name "*~" -o -name "#*#" -o -name "#.*#" \) -ok {} \;;
+}
+alias clean='clean .'
+alias cl='clean'
+
+alias clean_all='sudo clean /'
+alias cla='clean_all'
