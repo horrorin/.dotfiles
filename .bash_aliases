@@ -24,14 +24,13 @@ function symfony() {
 	return 1;
     fi
 }
+
 alias sf='symfony'
 
-# Commands
+# Custom commands
 function clean() {
     find $1 \( -name ".*~" -o -name "*~" -o -name "#*#" -o -name "#.*#" \) -ok {} \;;
 }
+
 alias clean='clean .'
 alias cl='clean'
-
-alias clean_all='sudo clean /'
-alias cla='clean_all'
