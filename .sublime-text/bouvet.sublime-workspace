@@ -1,0 +1,240 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 52.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/nekketsu/www/bouvet/app/config/config.yml",
+		"/home/nekketsu/www/bouvet/app/AppKernel.php",
+		"/home/nekketsu/www/bouvet/src/LePhare/Bundle/GlossaryBundle/Resources/config/routing.yml",
+		"/home/nekketsu/www/bouvet/vendor/faros/admin-bundle/Faros/AdminBundle/Menu/AbstractMenuBuilder.php",
+		"/home/nekketsu/www/bouvet/src/Bouvet/AdminBundle/Resources/config/services.yml",
+		"/home/nekketsu/www/bouvet/src/LePhare/Bundle/GlossaryBundle/Resources/config/routing/site.yml",
+		"/home/nekketsu/www/bouvet/composer.json",
+		"/home/nekketsu/www/bouvet/app/config/security_roles.yml",
+		"/home/nekketsu/www/bouvet/vendor/leafo/lessphp/tests/inputs/selector_expressions.less",
+		"/home/nekketsu/www/bouvet/app/SymfonyRequirements.php",
+		"/home/nekketsu/www/bouvet/bin/phpunit",
+		"/home/nekketsu/www/bouvet/vendor/phpunit/phpunit/build/phar-autoload.php.in",
+		"/home/nekketsu/www/bouvet/app/config/parameters.yml",
+		"/home/nekketsu/www/bouvet/vendor/doctrine/migrations/lib/Doctrine/DBAL/Migrations/AbstractMigration.php",
+		"/home/nekketsu/www/bouvet/vendor/phpunit/phpunit/Tests/_files/AbstractTest.php",
+		"/home/nekketsu/www/bouvet/vendor/swiftmailer/swiftmailer/lib/classes/Swift/ByteStream/ArrayByteStream.php",
+		"/home/nekketsu/www/bouvet/vendor/symfony/assetic-bundle/Symfony/Bundle/AsseticBundle/AsseticBundle.php",
+		"/home/nekketsu/www/bouvet/app/config/routing.yml",
+		"/home/nekketsu/www/bouvet/app/Resources/views/base.html.twig",
+		"/home/nekketsu/www/bouvet/vendor/composer/autoload_psr4.php",
+		"/home/nekketsu/www/bouvet/src/LePhare/Bundle/GlossaryBundle/Resources/config/routing/admin.yml",
+		"/home/nekketsu/www/bouvet/vendor/gedmo/doctrine-extensions/lib/Gedmo/Translatable/Hydrator/ORM/ObjectHydrator.php",
+		"/home/nekketsu/www/bouvet/src/LePhare/Bundle/GlossaryBundle/Entity/Glossary.php",
+		"/home/nekketsu/www/bouvet/vendor/doctrine/orm/tests/Doctrine/Tests/ORM/Functional/Locking/GearmanLockTest.php",
+		"/home/nekketsu/www/bouvet/vendor/kriswallsmith/assetic/Gemfile",
+		"/home/nekketsu/www/bouvet/src/LePhare/Bundle/GlossaryBundle/Manager/RelatedTermsManager.php",
+		"/home/nekketsu/www/bouvet/LICENSE",
+		"/home/nekketsu/www/bouvet/web/app.php",
+		"/home/nekketsu/www/bouvet/app/autoload.php",
+		"/home/nekketsu/www/bouvet/web/config.php",
+		"/home/nekketsu/www/bouvet/app/console",
+		"/home/nekketsu/www/bouvet/vendor/leafo/lessphp/tests/inputs/compile_on_mixin.less",
+		"/home/nekketsu/www/bouvet/vendor/faros/core-bundle/Faros/CoreBundle/Command/ImportEntitiesCommand.php",
+		"/home/nekketsu/www/bouvet/vendor/faros/core-bundle/Faros/CoreBundle/Command/AbstractImportCommand.php",
+		"/home/nekketsu/www/bouvet/vendor/faros/cms-bundle/Faros/CmsBundle/Command/PageImportCommand.php",
+		"/home/nekketsu/www/bouvet/vendor/doctrine/dbal/lib/Doctrine/DBAL/Tools/Console/Command/ImportCommand.php",
+		"/home/nekketsu/www/bouvet/vendor/leafo/lessphp/tests/inputs/import.less",
+		"/home/nekketsu/www/bouvet/vendor/symfony/symfony/src/Symfony/Component/Security/Core/User/InMemoryUserProvider.php",
+		"/home/nekketsu/www/bouvet/vendor/gedmo/doctrine-extensions/tests/Gedmo/Tree/InMemoryUpdatesTest.php",
+		"/home/nekketsu/www/bouvet/vendor/composer/installed.json",
+		"/home/nekketsu/www/bouvet/web/bundles/farosadmin",
+		"/home/nekketsu/www/bouvet/web/bundles/mopabootstrap/font/FontAwesome.otf",
+		"/home/nekketsu/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/nekketsu/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"false"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "bouvet.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"service",
+				"src/Bouvet/AdminBundle/Resources/config/services.yml"
+			],
+			[
+				"abstractmenu",
+				"vendor/faros/admin-bundle/Faros/AdminBundle/Menu/AbstractMenuBuilder.php"
+			],
+			[
+				"app/routing",
+				"app/config/routing.yml"
+			],
+			[
+				"glo/routing/",
+				"src/LePhare/Bundle/GlossaryBundle/Resources/config/routing/site.yml"
+			],
+			[
+				"glo/routin",
+				"src/LePhare/Bundle/GlossaryBundle/Resources/config/routing.yml"
+			],
+			[
+				"appkern",
+				"app/AppKernel.php"
+			],
+			[
+				"config",
+				"app/config/config.yml"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/.sublime-text/bernard-solfin.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 252.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
