@@ -14,6 +14,9 @@ alias la='ls -la'
 # Editors
 alias ne='emacs'
 
+# Others
+alias restart_httpd='sudo service httpd restart && sudo restart php-fpm restart'
+
 # Symfony
 function symfony() {
     if [ -f ./app/console ]; then
