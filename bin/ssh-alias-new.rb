@@ -37,9 +37,9 @@ user = 'root' if user.empty?
 
 File.open(config_path, 'a') do |file|
   file.puts "host #{shortname}"
-  file.puts " hostname #{hostname}"
-  file.puts " port #{port}"
-  file.puts " user #{user}"
+  file.puts "    hostname #{hostname}"
+  file.puts "    port #{port}"
+  file.puts "    user #{user}"
   file.puts ""
 end
 
