@@ -32,3 +32,7 @@ You can also run <tt>dfm --help</tt>.
 ## My dotfiles
 
 My dotfiles are in the <tt>personal</tt> branch.
+
+## Post install
+
+   $ install git-extras # (cd /tmp && git clone --depth 1 https://github.com/visionmedia/git-extras.git && cd git-extras && sudo make install)
