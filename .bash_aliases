@@ -10,12 +10,14 @@ alias emacs='emacs -nw'
 alias l='ls -l'
 alias ll='ls -l'
 alias la='ls -la'
+alias logout='gnome-session-quit'
 
 # Editors
 alias ne='emacs'
+alias subl='sublime_text'
 
 # Others
-alias restart_httpd='sudo service httpd restart && sudo restart php-fpm restart'
+alias restart_httpd='sudo service httpd restart && sudo service php-fpm restart'
 
 # Symfony
 function symfony() {

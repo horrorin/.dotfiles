@@ -6,7 +6,7 @@
 	name = Blake ETEME
 	email = blake.eteme@gmail.com
 [core]
-	editor = emacs
+	editor = emacs -nw
 	sharedRepository = umask
 	autocrlf = input
     	filemode = false
