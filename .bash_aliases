@@ -34,7 +34,7 @@ alias sf='symfony'
 
 # Custom commands
 function clean() {
-    find $1 \( -name ".*~" -o -name "*~" -o -name "#*#" -o -name "#.*#" \) -ok {} \;;
+    find $1 \( -name ".*~" -o -name "*~" -o -name "#*#" -o -name "#.*#" \) -ok rm {} \;;
 }
 
 alias clean='clean .'
