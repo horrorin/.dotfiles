@@ -74,3 +74,4 @@
     	theirs = "!f() { git co --theirs $@ && git add $@; }; f"
     	unassume = update-index --no-assume-unchanged
     	unassumeall = "!git assumed | xargs git update-index --no-assume-unchanged"
+	sm = submodule
