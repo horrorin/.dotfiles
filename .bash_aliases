@@ -14,7 +14,6 @@ alias logout='gnome-session-quit'
 
 # Editors
 alias ne='emacs'
-alias subl='sublime_text'
 
 # Others
 alias restart_httpd='sudo service httpd restart && sudo service php-fpm restart'
