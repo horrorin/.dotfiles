@@ -35,4 +35,5 @@ My dotfiles are in the <tt>personal</tt> branch.
 
 ## Post install
 
-   $ install git-extras # (cd /tmp && git clone --depth 1 https://github.com/visionmedia/git-extras.git && cd git-extras && sudo make install)
+   $ cd /tmp && git clone --depth 1 https://github.com/visionmedia/git-extras.git && cd git-extras && sudo make install
+   $ mkdir -p .config/sublime-text-3/Packages/User/ && mv Preferences.sublime-settings  .config/sublime-text-3/Packages/User/
