@@ -37,4 +37,4 @@ My dotfiles are in the <tt>personal</tt> branch.
 
     $ wget https://raw.githubusercontent.com/chriskempson/base16-gnome-terminal/master/base16-monokai.dark.sh && mv base16-monokai.dark.sh ~/.base16-shell/ && source ~/.base16-shell/base16-monokai.dark.sh
     $ cd /tmp && git clone --depth 1 https://github.com/visionmedia/git-extras.git && cd git-extras && sudo make install
-    $ mkdir -p ~/.config/sublime-text-3/Packages/User/ && mv ~/Preferences.sublime-settings  ~/.config/sublime-text-3/Packages/User/
+    $ mkdir -p ~/.config/sublime-text-3/Packages/User/ && rm ~/Preferences.sublime-settings && cp ~/.dotfiles/Preferences.sublime-settings ~/.config/sublime-text-3/Packages/User/
