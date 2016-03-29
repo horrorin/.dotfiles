@@ -2,7 +2,7 @@
 
 (set-keyboard-coding-system 'utf-8)
 (set-terminal-coding-system 'utf-8)
-(set-default-font "Pragmata Pro:pixelsize=10")
+(set-default-font "Inconsolata:pixelsize=10")
 
 (setq
     ;; don't create backup files

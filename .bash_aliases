@@ -5,6 +5,7 @@
 # Fixes
 alias sudo='sudo '
 alias emacs='emacs -nw'
+alias xsel='xsel --clipboard'
 
 # System
 alias l='ls -l'
@@ -38,39 +39,3 @@ function clean() {
 
 alias clean='clean .'
 alias cl='clean'
-
- # Capifony
-function cap() {
-    cap=`whereis cap | awk '{print $2}'`;
-    $cap $*;
-    project="Project";
-    if [ -f ./composer.json ]
-    then
-        project=`grep '"name"' ./composer.json | awk -F'"' '{print $4}'`
-    fi
-
-    if [ $? -eq 0 ];
-    then
-        notify-send -u normal -t 5000 "Capifony" "$project sucessfully deploy on $1";
-    else
-        notify-send -u critical -t 5000 "Capifony" "Fail to deploy $project on $1";
-    fi
-}
-
- # Composer
-function composer() {
-    composer=`whereis composer | awk '{print $2}'`;
-    $composer $*;
-    project="Project";
-    if [ -f ./composer.json ]
-    then
-        project=`grep '"name"' ./composer.json | awk -F'"' '{print $4}'`
-    fi
-
-    if [ $? -eq 0 ];
-    then
-        notify-send -u normal -t 5000 "Composer" "$project sucessfully $1 dependencies";
-    else
-        notify-send -u critical -t 5000 "Composer" "Fail to $1 $project dependencies";
-    fi
-}
