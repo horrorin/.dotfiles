@@ -10,6 +10,7 @@
 	sharedRepository = umask
 	autocrlf = input
     	filemode = false
+	excludesfile = /home/blake/.gitignore-global
 [color]
 	ui = auto
 [github]
