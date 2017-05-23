@@ -8,6 +8,7 @@ alias emacs='emacs -nw'
 alias xsel='xsel --clipboard'
 
 # System
+alias ls='ls -Gh'
 alias l='ls -l'
 alias ll='ls -l'
 alias la='ls -la'
